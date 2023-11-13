@@ -1,0 +1,2 @@
+dapr run --app-id publisher --app-port 7098 --app-protocol https --dapr-http-port 3608 --resources-path dapr-components -- dotnet run
+dapr run --app-id subscriber --app-port 7150 --app-protocol https --dapr-http-port 3610 --resources-path dapr-components -- dotnet run
